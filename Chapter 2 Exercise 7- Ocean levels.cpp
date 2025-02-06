@@ -13,8 +13,8 @@ const double riseRate = 1.5;
 
 int main()
 {
-	cout << "The ocean level in 5 years will be" << riseRate * 5;
-	cout << "The ocean level in 7 years will be" << riseRate * 7;
+	cout << "The ocean level in 5 years will be" << riseRate * 5 <<endl;
+	cout << "The ocean level in 7 years will be" << riseRate * 7 << endl;
 	cout << "The ocean level in 10 years will be" << riseRate * 10;
 }
 
