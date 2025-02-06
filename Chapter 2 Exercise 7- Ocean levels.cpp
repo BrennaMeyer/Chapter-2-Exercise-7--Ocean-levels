@@ -11,8 +11,13 @@
 using namespace std;
 const double riseRate = 1.5; 
 
+//const double riseRate = 1.5;
+
 int main()
 {
+	double riseRate;
+	cout << "Please enter the rate of rise you expect:"; 
+	cin >> riseRate;
 	cout << "The ocean level in 5 years will be" << riseRate * 5 <<endl;
 	cout << "The ocean level in 7 years will be" << riseRate * 7 << endl;
 	cout << "The ocean level in 10 years will be" << riseRate * 10;
